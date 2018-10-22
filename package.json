@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "sass-watch": "node-sass public/sass --output public/css -w -r",
+    "watch": "webpack --watch"
   },
   "author": "3mpirical",
   "license": "ISC",
@@ -13,5 +15,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "hbs": "^4.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.4"
   }
 }
