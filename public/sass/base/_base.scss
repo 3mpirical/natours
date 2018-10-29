@@ -1,0 +1,18 @@
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // Defines 1rem as 10px
+  // Browser standard is 16px (16 * 0.625 = 10)
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
